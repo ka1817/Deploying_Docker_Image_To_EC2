@@ -4,7 +4,7 @@ app=FastAPI(title="Basic Project to deploy docker image EC2 using github actions
 
 @app.get("/")
 def home():
-    return "Hello World1" 
+    return "Welcome to the world of EC2 Deployment with docker" 
 
 if __name__=="__main__":
     uvicorn.run(app,host='0.0.0.0',port=8000)
