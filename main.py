@@ -7,4 +7,4 @@ def home():
     return "Hello World1" 
 
 if __name__=="__main__":
-    uvicorn.run(app,host='0.0.0.0',port=2000)
+    uvicorn.run(app,host='0.0.0.0',port=8000)
